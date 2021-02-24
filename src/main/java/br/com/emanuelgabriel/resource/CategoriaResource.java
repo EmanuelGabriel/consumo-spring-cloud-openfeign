@@ -31,7 +31,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 public class CategoriaResource {
 
 	@Autowired
-	Categoria categoria;
+	private Categoria categoria;
 
 	@Operation(description = "Listar as categorias", summary = "Listar as categorias")
 	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "OK"),
